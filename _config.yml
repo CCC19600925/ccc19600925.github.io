@@ -76,3 +76,7 @@ deploy:
   repo: https://github.com/CCC19600925/ccc19600925.github.io.git
   #branch: master
   #message:
+
+deploy:
+  type: heroku
+  repo: https://git.heroku.com/ccc19600925.git  
