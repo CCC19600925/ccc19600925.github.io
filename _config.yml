@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: CCC19600925
-subtitle: 使用 Hexo 架設部落格
+title: Hexo
+subtitle:
 description:
-author: 居正中
+author: John Doe
 language:
 timezone:
 
@@ -34,7 +34,7 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: true
+post_asset_folder: false
 relative_link: false
 future: true
 highlight:
@@ -66,11 +66,6 @@ theme: landscape
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
-# deploy:
-#   type: git
-#   repo: https://github.com/CCC19600925/ccc19600925.github.io.git
-
 deploy:
   type: heroku
   repo: https://git.heroku.com/ccc19600925.git
-  message: 'Site updated: {{ now("YYYY-MM-DD HH:mm:ss") }}'
