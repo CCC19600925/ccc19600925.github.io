@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
+title: CCC19600925
+subtitle: 使用 Hexo 架設部落格
 description:
-author: John Doe
+author: 居正中
 language:
 timezone:
 
@@ -66,8 +66,13 @@ theme: landscape
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
+# deploy:
+#   type: git
+#   repo: https://github.com/CCC19600925/ccc19600925.github.io.git
+#   branch: master
+#   message:
 deploy:
   type: git
   repo: https://github.com/CCC19600925/ccc19600925.github.io.git
-  branch: master
-  message: 
+  #branch: master
+  #message:
